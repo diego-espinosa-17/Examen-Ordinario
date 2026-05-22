@@ -27,20 +27,20 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Restar = New System.Windows.Forms.Button()
-        Me.Suma = New System.Windows.Forms.Button()
+        Me.RestarUno = New System.Windows.Forms.Button()
+        Me.SumarUno = New System.Windows.Forms.Button()
         Me.BotonSubtotal = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.subtotal = New System.Windows.Forms.Label()
+        Me.ValorSubtotal = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.IVA = New System.Windows.Forms.Label()
+        Me.ValorIVA = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.total = New System.Windows.Forms.Label()
+        Me.ValorTotal = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
@@ -93,25 +93,25 @@ Partial Class Form1
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "$"
         '
-        'Restar
+        'RestarUno
         '
-        Me.Restar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Restar.Location = New System.Drawing.Point(124, 153)
-        Me.Restar.Name = "Restar"
-        Me.Restar.Size = New System.Drawing.Size(52, 34)
-        Me.Restar.TabIndex = 5
-        Me.Restar.Text = "-1"
-        Me.Restar.UseVisualStyleBackColor = True
+        Me.RestarUno.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RestarUno.Location = New System.Drawing.Point(124, 153)
+        Me.RestarUno.Name = "RestarUno"
+        Me.RestarUno.Size = New System.Drawing.Size(52, 34)
+        Me.RestarUno.TabIndex = 5
+        Me.RestarUno.Text = "-1"
+        Me.RestarUno.UseVisualStyleBackColor = True
         '
-        'Suma
+        'SumarUno
         '
-        Me.Suma.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Suma.Location = New System.Drawing.Point(321, 153)
-        Me.Suma.Name = "Suma"
-        Me.Suma.Size = New System.Drawing.Size(54, 34)
-        Me.Suma.TabIndex = 7
-        Me.Suma.Text = "+1"
-        Me.Suma.UseVisualStyleBackColor = True
+        Me.SumarUno.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SumarUno.Location = New System.Drawing.Point(321, 153)
+        Me.SumarUno.Name = "SumarUno"
+        Me.SumarUno.Size = New System.Drawing.Size(54, 34)
+        Me.SumarUno.TabIndex = 7
+        Me.SumarUno.Text = "+1"
+        Me.SumarUno.UseVisualStyleBackColor = True
         '
         'BotonSubtotal
         '
@@ -163,15 +163,15 @@ Partial Class Form1
         Me.Label6.TabIndex = 12
         Me.Label6.Text = "$"
         '
-        'subtotal
+        'ValorSubtotal
         '
-        Me.subtotal.AutoSize = True
-        Me.subtotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.subtotal.Location = New System.Drawing.Point(343, 232)
-        Me.subtotal.Name = "subtotal"
-        Me.subtotal.Size = New System.Drawing.Size(19, 20)
-        Me.subtotal.TabIndex = 13
-        Me.subtotal.Text = "0"
+        Me.ValorSubtotal.AutoSize = True
+        Me.ValorSubtotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ValorSubtotal.Location = New System.Drawing.Point(343, 232)
+        Me.ValorSubtotal.Name = "ValorSubtotal"
+        Me.ValorSubtotal.Size = New System.Drawing.Size(19, 20)
+        Me.ValorSubtotal.TabIndex = 13
+        Me.ValorSubtotal.Text = "0"
         '
         'Label8
         '
@@ -193,15 +193,15 @@ Partial Class Form1
         Me.Label9.TabIndex = 15
         Me.Label9.Text = "$"
         '
-        'IVA
+        'ValorIVA
         '
-        Me.IVA.AutoSize = True
-        Me.IVA.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IVA.Location = New System.Drawing.Point(356, 296)
-        Me.IVA.Name = "IVA"
-        Me.IVA.Size = New System.Drawing.Size(19, 20)
-        Me.IVA.TabIndex = 16
-        Me.IVA.Text = "0"
+        Me.ValorIVA.AutoSize = True
+        Me.ValorIVA.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ValorIVA.Location = New System.Drawing.Point(356, 296)
+        Me.ValorIVA.Name = "ValorIVA"
+        Me.ValorIVA.Size = New System.Drawing.Size(19, 20)
+        Me.ValorIVA.TabIndex = 16
+        Me.ValorIVA.Text = "0"
         '
         'Label11
         '
@@ -223,15 +223,15 @@ Partial Class Form1
         Me.Label12.TabIndex = 18
         Me.Label12.Text = "$"
         '
-        'total
+        'ValorTotal
         '
-        Me.total.AutoSize = True
-        Me.total.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total.Location = New System.Drawing.Point(331, 358)
-        Me.total.Name = "total"
-        Me.total.Size = New System.Drawing.Size(19, 20)
-        Me.total.TabIndex = 19
-        Me.total.Text = "0"
+        Me.ValorTotal.AutoSize = True
+        Me.ValorTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ValorTotal.Location = New System.Drawing.Point(331, 358)
+        Me.ValorTotal.Name = "ValorTotal"
+        Me.ValorTotal.Size = New System.Drawing.Size(19, 20)
+        Me.ValorTotal.TabIndex = 19
+        Me.ValorTotal.Text = "0"
         '
         'TextBox1
         '
@@ -248,20 +248,20 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(467, 450)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.total)
+        Me.Controls.Add(Me.ValorTotal)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.IVA)
+        Me.Controls.Add(Me.ValorIVA)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.subtotal)
+        Me.Controls.Add(Me.ValorSubtotal)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.BotonSubtotal)
-        Me.Controls.Add(Me.Suma)
-        Me.Controls.Add(Me.Restar)
+        Me.Controls.Add(Me.SumarUno)
+        Me.Controls.Add(Me.RestarUno)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label3)
@@ -279,19 +279,19 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents Restar As Button
-    Friend WithEvents Suma As Button
+    Friend WithEvents RestarUno As Button
+    Friend WithEvents SumarUno As Button
     Friend WithEvents BotonSubtotal As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents subtotal As Label
+    Friend WithEvents ValorSubtotal As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
-    Friend WithEvents IVA As Label
+    Friend WithEvents ValorIVA As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
-    Friend WithEvents total As Label
+    Friend WithEvents ValorTotal As Label
     Friend WithEvents TextBox1 As TextBox
 End Class
