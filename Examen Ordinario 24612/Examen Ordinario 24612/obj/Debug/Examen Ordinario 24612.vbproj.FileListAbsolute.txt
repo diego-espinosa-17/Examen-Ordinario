@@ -1,0 +1,12 @@
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\bin\Debug\Examen Ordinario 24612.exe.config
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\bin\Debug\Examen Ordinario 24612.exe
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\bin\Debug\Examen Ordinario 24612.pdb
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\bin\Debug\Examen Ordinario 24612.xml
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\obj\Debug\Examen Ordinario 24612.vbprojAssemblyReference.cache
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\obj\Debug\Examen_Ordinario_24612.Form1.resources
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\obj\Debug\Examen_Ordinario_24612.Resources.resources
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\obj\Debug\Examen Ordinario 24612.vbproj.GenerateResource.cache
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\obj\Debug\Examen Ordinario 24612.vbproj.CoreCompileInputs.cache
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\obj\Debug\Examen Ordinario 24612.exe
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\obj\Debug\Examen Ordinario 24612.xml
+C:\Diego Zuñiga 24612\Examen Ordinario 24612\Examen Ordinario 24612\obj\Debug\Examen Ordinario 24612.pdb
